@@ -21,10 +21,60 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello\n",
+      "Hello\n",
+      "Hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "def name():\n",
+    "    \"\"\"\n",
+    "    To jest moja funkcja\n",
+    "    \"\"\"\n",
+    "    print('Hello')\n",
+    "\n",
+    "\n",
+    "name()\n",
+    "name()\n",
+    "name()"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": []
+   "source": [
+    "def get_name():\n",
+    "    \"\"\"\n",
+    "    To jest moja funkcja\n",
+    "    \"\"\"\n",
+    "    print('Hello')\n",
+    "\n",
+    "\n",
+    "name()\n",
+    "name()\n",
+    "name()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {
+    "scrolled": false
+   },
+   "outputs": [],
+   "source": [
+    "str.join?"
+   ]
   },
   {
    "cell_type": "markdown",
@@ -43,10 +93,96 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 16,
    "metadata": {},
    "outputs": [],
-   "source": []
+   "source": [
+    "def add():\n",
+    "    a = 1\n",
+    "    b = 2\n",
+    "    return a + b\n",
+    "\n",
+    "result = add()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def name():\n",
+    "    return 1\n",
+    "\n",
+    "def name():\n",
+    "    return 1.5\n",
+    "\n",
+    "def name():\n",
+    "    return True\n",
+    "\n",
+    "def name():\n",
+    "    return None\n",
+    "\n",
+    "def name():\n",
+    "    return 'hello'\n",
+    "\n",
+    "def name():\n",
+    "    return (1, 2)\n",
+    "\n",
+    "def name():\n",
+    "    return 1, 2\n",
+    "\n",
+    "def name():\n",
+    "    return [1, 2]\n",
+    "\n",
+    "def name():\n",
+    "    return {1, 2}\n",
+    "\n",
+    "def name():\n",
+    "    return {'a': 1, 'b': 2}\n",
+    "\n",
+    "def name():\n",
+    "    return [\n",
+    "        (1, 2),\n",
+    "        [3, 4],\n",
+    "        {'a': 1, 'b': 2}\n",
+    "    ]\n",
+    "\n",
+    "def name():\n",
+    "    pass\n",
+    "\n",
+    "def name():\n",
+    "    print('hello')\n",
+    "    \n",
+    "def name():\n",
+    "    return None\n",
+    "\n",
+    "def name():\n",
+    "    \"\"\"\n",
+    "    To jest moja funkcja\n",
+    "    \"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "NoneType"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "result = name()\n",
+    "type(result)"
+   ]
   },
   {
    "cell_type": "markdown",
