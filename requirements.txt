@@ -1,0 +1,10 @@
+pip
+jupyter
+jupyterlab
+numpy
+pandas
+matplotlib
+requests
+lxml
+html5lib
+openpyxl
